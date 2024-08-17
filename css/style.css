@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,400;1,500&family=Roboto+Slab:wght@100&display=swap');
+:root{
+    --main-color : black;
+    --white : white;
+ }
+*{
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    font-family: 'Nunito', sans-serif,'Roboto Slab', serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::selection{
+   background-color: var(--main-color);
+   color: var(--white);
+}
+
+*::-webkit-scrollbar{
+   height: .5rem;
+   width: 1rem;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+}
+.wrapper{ 
+    height: 100vh;
+}
+.myColor{
+    /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+.myShadow{
+    
+    box-shadow: 0px 5px 10px #111;  
+}
+.myBtn{
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #0250c5 0%, #d43f8d 100%);
+    border: none;
+    outline: none;
+}
+.myBtn:hover{
+    background-image: linear-gradient(to left, #0250c5 0%, #d43f8d 100%);
+}
+.myHr{
+    border-radius: 100px;
+    height: 3px;
+}
+.myLinkBtn{
+    border-radius: 100px;
+    width: 50%;
+    border: 2px solid #fff;
+}
